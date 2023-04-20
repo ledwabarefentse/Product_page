@@ -1,21 +1,21 @@
-#/bin/bash
+# #/bin/bash
 
-base_url="https://raw.githubusercontent.com/microverseinc/linters-config"
-branch="master"
-usage="
-Usage: check-linters-config dir
+# base_url="https://raw.githubusercontent.com/microverseinc/linters-config"
+# branch="master"
+# usage="
+# Usage: check-linters-config dir
 
-Please provide a valid dir to compare againts.
+# Please provide a valid dir to compare againts.
 
-Valid options for dir:
-  html-css
-  javascript
-  react-redux
-  ror
-  ruby
+# Valid options for dir:
+#   html-css
+#   javascript
+#   react-redux
+#   ror
+#   ruby
 
-Example: check-linters-config ruby
-"
+# Example: check-linters-config ruby
+# "
 
 compare () {
   directory="$1"
